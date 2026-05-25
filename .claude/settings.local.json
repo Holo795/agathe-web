@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p /Users/paulinsegura/Documents/ME/Agathe/images)",
+      "Bash(cp \"/Users/paulinsegura/Downloads/WhatsApp Image 2026-05-25 at 17.08.00.jpeg\" /Users/paulinsegura/Documents/ME/Agathe/images/spa.jpeg)",
+      "Bash(cp \"/Users/paulinsegura/Downloads/WhatsApp Image 2026-05-25 at 17.08.00 \\(1\\).jpeg\" /Users/paulinsegura/Documents/ME/Agathe/images/restaurant.jpeg)",
+      "Bash(cp \"/Users/paulinsegura/Downloads/WhatsApp Image 2026-05-25 at 17.08.00 \\(2\\).jpeg\" /Users/paulinsegura/Documents/ME/Agathe/images/lobby.jpeg)",
+      "Bash(cp \"/Users/paulinsegura/Downloads/WhatsApp Image 2026-05-25 at 17.08.00 \\(3\\).jpeg\" /Users/paulinsegura/Documents/ME/Agathe/images/uniforme-homme.jpeg)",
+      "Bash(mkdir -p src/components public/images)",
+      "Bash(mv images/* public/images/)",
+      "Bash(rmdir images *)"
+    ]
+  }
+}

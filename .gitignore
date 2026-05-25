@@ -1,0 +1,30 @@
+# Dependencies
+node_modules
+
+# Build
+dist
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+*.local
+.env
+.env.*
+
+# Vite
+.vite
+
+# Docker
+docker-compose.override.yml
+
+# Logs
+*.log
+npm-debug.log*
