@@ -7,7 +7,7 @@ export default function BackgroundMusic() {
   useEffect(() => {
     const audio = audioRef.current
     if (!audio) return
-    audio.volume = 0.22
+    audio.volume = 0.55
 
     const tryPlay = () =>
       audio.play().then(() => setPlaying(true)).catch(() => {})
