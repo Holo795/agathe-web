@@ -6,8 +6,10 @@ import Rituel from './components/Rituel.jsx'
 import Service from './components/Service.jsx'
 import Strategy from './components/Strategy.jsx'
 import Sensoriel from './components/Sensoriel.jsx'
+import Souvenir from './components/Souvenir.jsx'
 import Promesse from './components/Promesse.jsx'
 import Footer from './components/Footer.jsx'
+import BackgroundMusic from './components/BackgroundMusic.jsx'
 
 export default function App() {
   useEffect(() => {
@@ -35,8 +37,10 @@ export default function App() {
       <Service />
       <Strategy />
       <Sensoriel />
+      <Souvenir />
       <Promesse />
       <Footer />
+      <BackgroundMusic />
     </>
   )
 }

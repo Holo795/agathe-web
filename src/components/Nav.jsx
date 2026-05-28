@@ -8,6 +8,7 @@ export default function Nav() {
         <li><a href="#service">Service</a></li>
         <li><a href="#strategie">Stratégie</a></li>
         <li><a href="#sensoriel">Sensoriel</a></li>
+        <li><a href="#souvenir">Souvenir</a></li>
       </ul>
     </nav>
   )
