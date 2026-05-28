@@ -3,7 +3,8 @@ const spaces = [
   { img: 'restaurant.jpeg',      jp: '懐石 · Kaiseki',     name: 'Restaurant' },
   { img: 'spa.jpeg', jp: '温泉 · Onsen',       name: 'Spa' },
   { img: 'lobby.jpeg',    jp: '入口 · Iriguchi',    name: 'Réception' },
-  { img: 'cuisine.png',    jp: '厨房 · Kitchen',    name: 'Cuisine' }
+  { img: 'cuisine.png',    jp: '厨房 · Kitchen',    name: 'Cuisine' },
+  { img: 'bar.jpeg',    jp: 'バー · Bar',    name: 'Bar' }
 ]
 
 export default function Espaces() {
