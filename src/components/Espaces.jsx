@@ -4,7 +4,7 @@ const spaces = [
   { img: 'spa.jpeg', jp: '温泉 · Onsen',       name: 'Spa' },
   { img: 'lobby.jpeg',    jp: '入口 · Iriguchi',    name: 'Réception' },
   { img: 'cuisine.png',    jp: '厨房 · Kitchen',    name: 'Cuisine' },
-  { img: 'bar.jpeg',    jp: 'バー · Bar',    name: 'Bar' }
+  { img: 'bar.jpeg',    jp: 'バー · Bar',    name: 'Bar', position: '75% center' }
 ]
 
 export default function Espaces() {
@@ -21,7 +21,7 @@ export default function Espaces() {
         <div className="spaces">
           {spaces.map((s) => (
             <div className="space reveal" key={s.name}>
-              <img src={`/images/${s.img}`} alt={s.name} />
+              <img src={`/images/${s.img}`} alt={s.name} style={s.position ? { objectPosition: s.position } : undefined} />
               <div className="space-overlay">
                 <div className="space-jp">{s.jp}</div>
                 <h3>{s.name}</h3>
